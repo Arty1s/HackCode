@@ -64,7 +64,7 @@ const ProfileCard = () => {
   return (
     <ProfileCardContainer>
       <Banner />
-      <ProfilePicture src="https://via.placeholder.com/100" alt="Profile" /> {/* Replace with your profile picture URL */}
+      <ProfilePicture src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhuK2yF9SqI7kmpz-lEct85j_mNWw68SjkMQ&s" alt="Profile" /> {/* Replace with your profile picture URL */}
       <ProfileInfo>
         <Name>Alex Wentz</Name>
         <Title>Software Engineer at Kin + Carta</Title>
