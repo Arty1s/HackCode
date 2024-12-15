@@ -40,4 +40,15 @@ module.exports = {
       },
     },
   ],
-}
+  // Add a developMiddleware to proxy API requests to Wrangler dev
+  developMiddleware: (app) => {
+    const { createProxyMiddleware } = require("http-proxy-middleware");
+    app.use(
+      "/api",
+      createProxyMiddleware({
+        target: "http://localhost:8788", // Wrangler dev server
+        changeOrigin: true,
+      })
+    );
+  },
+};

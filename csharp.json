@@ -1,0 +1,18 @@
+[
+  {
+    "id": "lesson1",
+    "title": "Introduction to C#",
+    "content": "Discover the basics of C#, including its syntax, variables, and basic object-oriented principles.",
+    "tags": ["programming", "csharp", "beginner"],
+    "level": "easy",
+    "duration": 30
+  },
+  {
+    "id": "lesson2",
+    "title": "Advanced C# Concepts",
+    "content": "Dive into advanced topics like LINQ, delegates, and asynchronous programming in C#.",
+    "tags": ["programming", "csharp", "advanced"],
+    "level": "hard",
+    "duration": 60
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "lesson1",
+    "title": "Introduction to Python",
+    "content": "Learn the basics of Python programming, including variables, data types, and basic operations.",
+    "tags": ["programming", "python", "beginner"],
+    "level": "easy",
+    "duration": 30
+  },
+  {
+    "id": "lesson2",
+    "title": "Python Functions and Modules",
+    "content": "Understand how to define and use functions, and explore Python modules for better code organization.",
+    "tags": ["programming", "python", "functions"],
+    "level": "medium",
+    "duration": 45
+  }
+]

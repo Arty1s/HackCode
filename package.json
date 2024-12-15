@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@gatsbyjs/reach-router": "^2.0.1",
     "gatsby": "^5.14.0",
     "gatsby-plugin-image": "^3.14.0",
     "gatsby-plugin-manifest": "^5.14.0",
@@ -16,7 +17,8 @@
     "styled-components": "^6.1.13"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": "^2.8.8",
+    "wrangler": "^3.95.0"
   },
   "keywords": [
     "gatsby"
@@ -29,6 +31,8 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "wrangler:dev": "wrangler pages dev ./public --port 8788",
+    "wrangler:publish": "wrangler pages publish ./public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {

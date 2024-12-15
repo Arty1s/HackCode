@@ -1,0 +1,12 @@
+name = "gatsby-dynamic-api"
+type = "javascript"
+account_id = "2dc59ef78d857bea36d6f2293e53519b"
+
+# Site settings for Cloudflare Pages
+[site]
+bucket = "./public"  # Path to Gatsby's build output directory
+
+# Bindings for the R2 bucket
+[[r2_buckets]]
+binding = "R2_BUCKET"  # Name used in your code
+bucket_name = "hackcode"  # Name of your R2 bucket
