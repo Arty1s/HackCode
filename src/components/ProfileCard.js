@@ -69,7 +69,7 @@ const ProfileCard = () => {
         <Name>Alex Wentz</Name>
         <Title>Software Engineer at Kin + Carta</Title>
         <Tags>#learning #earlycareer #programming</Tags>
-        <ActionButton href="https://fromwentzitcame.com">Visit Website</ActionButton>
+        <ActionButton href="https://www.linkedin.com/in/michaela-093521297/">Visit Website</ActionButton>
       </ProfileInfo>
     </ProfileCardContainer>
   );
