@@ -11,7 +11,7 @@ const ProfileCardContainer = styled.div`
 `;
 
 const Banner = styled.div`
-  background-image: url("https://via.placeholder.com/400x150"); /* Replace with your background image URL */
+  background-image: url("https://as2.ftcdn.net/v2/jpg/04/19/26/97/1000_F_419269782_9LsP3TQndMVnZ2j3ZhTPhMjaqQpFAth9.jpg"); /* Replace with your background image URL */
   background-size: cover;
   background-position: center;
   height: 150px;
@@ -67,8 +67,8 @@ const ProfileCard = () => {
       <ProfilePicture src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhuK2yF9SqI7kmpz-lEct85j_mNWw68SjkMQ&s" alt="Profile" /> {/* Replace with your profile picture URL */}
       <ProfileInfo>
         <Name>Alex Wentz</Name>
-        <Title>Software Engineer at Kin + Carta</Title>
-        <Tags>#learning #earlycareer #programming</Tags>
+        <Title>Internal Manager at Uplift Media</Title>
+        <Tags>#SEO #learning #earlycareer #programming #marketing</Tags>
         <ActionButton href="https://www.linkedin.com/in/michaela-093521297/">Visit Website</ActionButton>
       </ProfileInfo>
     </ProfileCardContainer>
