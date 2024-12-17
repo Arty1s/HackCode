@@ -1,0 +1,19 @@
+[
+    {
+      "id": "lesson1",
+      "title": "Introduction to Programming",
+      "content": "This is an introductory lesson about programming...",
+      "tags": ["programming", "beginner"],
+      "level": "easy",
+      "duration": 30
+    },
+    {
+      "id": "lesson2",
+      "title": "Advanced Programming Concepts",
+      "content": "This lesson covers advanced topics...",
+      "tags": ["programming", "advanced"],
+      "level": "hard",
+      "duration": 45
+    }
+  ]
+  

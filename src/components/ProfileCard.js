@@ -11,7 +11,11 @@ const ProfileCardContainer = styled.div`
 `;
 
 const Banner = styled.div`
+<<<<<<< Updated upstream
   background-image: url("https://as2.ftcdn.net/v2/jpg/04/19/26/97/1000_F_419269782_9LsP3TQndMVnZ2j3ZhTPhMjaqQpFAth9.jpg"); /* Replace with your background image URL */
+=======
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/362/890/non_2x/programming-and-software-development-web-page-banner-program-code-on-screen-device-software-development-coding-process-concept-vector.jpg"); /* Replace with your background image URL */
+>>>>>>> Stashed changes
   background-size: cover;
   background-position: center;
   height: 150px;

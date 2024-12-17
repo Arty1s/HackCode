@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 name = "gatsby-dynamic-api"
 type = "javascript"
 account_id = "2dc59ef78d857bea36d6f2293e53519b"
@@ -10,3 +11,13 @@ bucket = "./public"  # Path to Gatsby's build output directory
 [[r2_buckets]]
 binding = "R2_BUCKET"  # Name used in your code
 bucket_name = "hackcode"  # Name of your R2 bucket
+=======
+name = "gatsby-cloudflare-r2"
+type = "javascript"
+account_id = "2dc59ef78d857bea36d6f2293e53519b"
+
+[env.production]
+r2_buckets = [
+  { binding = "HACKCODE", bucket_name = "hackcode" }
+]
+>>>>>>> Stashed changes
