@@ -18,6 +18,7 @@ export async function onRequest(context) {
     if (!object) {
       return new Response(`No data found for lessontype: ${lessontype}`, { status: 404 });
     }
+    console.log("Environment bindings:", context.env);
 
     // Parse the JSON file and find the lesson by ID
     const lessons = await object.json();
